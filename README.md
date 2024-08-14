@@ -6,8 +6,12 @@ Browser extension for [Firefox][firefox-addon] and [Chrome][chrome-ext] that pro
 
 ## Features
 
-- Replace [Twitch][twitch]'s native chat with [Chatterino][chatterino] (Windows only).
+~~- Replace [Twitch][twitch]'s native chat with [Chatterino][chatterino] (Windows only).~~ removed, false-positives when i have it disable was annoying me
 - Provide the currently watched channel for display in the "watching" split.
+
+## Required step
+You will need to change the native messaging manifest to include this extension's id. 
+- On Windows, you can find the file at `%appdata%\Chatterino2\Misc` for chromium browsers and firefox.
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 {
   "name": "Chatterino Native Host",
-  "version": "1.5",
-  "description": "Replaces the chat on Twitch.tv with Chatterino.",
+  "version": "1.727",
+  "description": "Provides functionality for the 'watching' tab in Chatterino",
   "permissions": ["tabs", "nativeMessaging", "storage"],
   "icons": {
     "256": "icon.png"

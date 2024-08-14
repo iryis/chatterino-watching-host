@@ -1,5 +1,5 @@
 chrome.runtime.sendMessage({ type: 'get-settings' }, settings_ => {
-  // replace twitch chat setting
+/*   // replace twitch chat setting
   let item = document.querySelector('#replace-twitch');
 
   item.checked = settings_.replaceTwitchChat;
@@ -10,5 +10,5 @@ chrome.runtime.sendMessage({ type: 'get-settings' }, settings_ => {
       key: 'replaceTwitchChat',
       value: item.checked,
     });
-  };
+  }; */
 });
